@@ -1,2 +1,2 @@
 # colwa
-![petrik4](https://user-images.githubusercontent.com/37924597/215039142-1a51b2fb-21a9-46c4-83ab-0deca97de52d.jpg)
+![petrik5](https://user-images.githubusercontent.com/37924597/215044546-ecc3dfd8-9229-4bdb-878a-a64ed27583fe.jpg)
