@@ -13,6 +13,6 @@
         if (global.db.sticker[hash] && global.db.sticker[hash].locked) return m.reply('You have no permission to change this sticker command')
         delete global.db.sticker[hash]
         m.reply("Done Delete Command")
-    }
-	isOwner: true
+    },
+    isOwner: true
 }
