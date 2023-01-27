@@ -4,7 +4,7 @@ module.exports = {
     use: "<query>",
     desc: "Twitter Comment Maker",
     type: "creator",
-    example: "%prefix%command <query>",
+    example: "Contoh %prefix%command gausah sok asik bgst",
     start: async(killua, m, { text }) => {
         killua.sendFile(m.from, global.api("zenz", "/creator/maketweet", {
             text: text, 
