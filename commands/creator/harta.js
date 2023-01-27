@@ -4,7 +4,7 @@ module.exports = {
     use: "<query>",
     desc: "Harta Tahta Maker",
     type: "creator",
-    example: "%prefix%command bucol",
+    example: "Contoh\n%prefix%command bucol",
     start: async(killua, m, { text }) => {
         killua.sendFile(m.from, global.api("zenz", "/creator/hartatahta", { text: text }, "apikey"), "", m)
     },
