@@ -1,0 +1,21 @@
+{
+  "APIs": {
+    "zenz": "https://api.zahwazein.xyz",
+    "apikey": "7c5d49fc6b"
+  },
+  "options": {
+    "autoRead": false,
+    "self": false,
+    "limitCount": 20,
+    "limitGame": 20
+  },
+  "exif": {
+    "packname": "BucolBot",
+    "author": "ig: buc0l"
+  },
+  "owner": [
+    "6285776323601"
+  ],
+  "timezone": "Asia/Jakarta",
+  "footer": "Powered by bucol"
+}
