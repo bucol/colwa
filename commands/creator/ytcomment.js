@@ -8,7 +8,7 @@ module.exports = {
     use: "<query>",
     desc: "Youtube Comment Maker",
     type: "creator",
-    example: "%prefix%command <query>",
+    example: "Contoh %prefix%command follow ig @buc0l",
     start: async(killua, m, { text }) => {
         killua.sendFile(m.from, global.api("zenz", "/creator/ytcomment", {
             url: "https://tse2.mm.bing.net/th?id=OIP.n1C1oxOvYLLyDIavrBFoNQHaHa&pid=Api&P=0&w=153&h=153",
