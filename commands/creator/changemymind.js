@@ -4,7 +4,7 @@ module.exports = {
     use: "<query>",
     desc: "Change my mind Maker",
     type: "creator",
-    example: "%prefix%command <query>",
+    example: "Contoh %prefix%command bucol ganteng",
     start: async(killua, m, { text }) => {
         killua.sendFile(m.from, global.api("zenz", "/creator/changemymind", {text: text}, "apikey"), "", m)
     },
