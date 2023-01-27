@@ -8,9 +8,9 @@ module.exports = {
     use: "<query>",
     desc: "Meme Maker From Memegen",
     type: "creator",
-    example: "%prefix%command top|bottom",
+    example: "Contoh %prefix%command top|bottom",
     start: async(killua, m, { command, text, prefix, quoted, mime }) => {
-        if (!quoted) return  m.reply(`Reply to Supported media With Caption ${prefix + command}`)
+        if (!quoted) return  m.reply(`Reply foto dengan command ${prefix + command}`)
         if (/image/.test(mime)) {
             if (!text.includes('|')) return m.reply(`Example : ${prefix + command} Top|Bottom`)
             let [a, b] = text.split`|`
@@ -32,7 +32,7 @@ module.exports = {
                 })
             });
         } else {
-            return m.reply(`Reply to Supported media With Caption ${prefix + command}`, m.from, { quoted: m })
+            return m.reply(`Reply foto dengan command ${prefix + command}`, m.from, { quoted: m })
         }
     },
     isQuery: true
